@@ -1,10 +1,9 @@
 # 📚 Knowledge-Based RAG Chatbot
----
+
 
 Project Description
 ---
 An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload one or more PDF documents and ask questions based only on the uploaded content. The chatbot retrieves relevant information using Hybrid Retrieval (FAISS + BM25) and generates accurate responses using Groq Llama 3.1.
-
 
 
 ## Features
@@ -34,16 +33,16 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 
 ## Technologies Used
 
-•  Python 
-•  Streamlit 
-•  LangChain (LCEL) 
-•  Groq (Llama 3.1-8B Instant) 
-•  Hugging Face Embeddings (all-MiniLM-L6-v2) 
-•  FAISS 
-•  BM25 Retriever 
-•  PyPDF 
-•  Python Dotenv 
-•  Regular Expressions (Regex)
+-  Python 
+-  Streamlit 
+-  LangChain (LCEL) 
+-  Groq (Llama 3.1-8B Instant) 
+-  Hugging Face Embeddings (all-MiniLM-L6-v2) 
+-  FAISS 
+-  BM25 Retriever 
+-  PyPDF 
+-  Python Dotenv 
+-  Regular Expressions (Regex)
 
 
 ## How to Run
