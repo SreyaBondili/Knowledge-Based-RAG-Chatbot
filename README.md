@@ -1,8 +1,11 @@
 # 📚 Knowledge-Based RAG Chatbot
+---
 
+Project Description
+---
 An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload one or more PDF documents and ask questions based only on the uploaded content. The chatbot retrieves relevant information using Hybrid Retrieval (FAISS + BM25) and generates accurate responses using Groq Llama 3.1.
 
----
+
 
 ## Features
 
@@ -17,7 +20,6 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 - Chat history support
 - Simple and interactive Streamlit UI
 
----
 
 ## Screenshots
 
@@ -29,65 +31,50 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 
 ![Chatbot](assets/screenshot2.png)
 
----
 
 ## Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Frontend | Streamlit |
-| Backend | Python |
-| Framework | LangChain (LCEL) |
-| LLM | Groq (Llama 3.1-8B Instant) |
-| Embeddings | HuggingFace (all-MiniLM-L6-v2) |
-| Vector Database | FAISS |
-| Keyword Retrieval | BM25 |
-| PDF Processing | PyPDF |
-| Environment Management | Python Dotenv |
+•  Python 
+•  Streamlit 
+•  LangChain (LCEL) 
+•  Groq (Llama 3.1-8B Instant) 
+•  Hugging Face Embeddings (all-MiniLM-L6-v2) 
+•  FAISS 
+•  BM25 Retriever 
+•  PyPDF 
+•  Python Dotenv 
+•  Regular Expressions (Regex)
 
----
 
 ## How to Run
 
-1. Clone the repository
+1. Clone the repository:
+   ```
+   git clone https://github.com/SreyaBondili/Knowledge-Based-RAG-Chatbot.git
+   ```
 
-```bash
-git clone https://github.com/SreyaBondili/Knowledge-Based-RAG-Chatbot.git
-```
+2. Open the project in VS Code.
 
-2. Open the project in VS Code or any Python IDE.
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-3. Install the required dependencies
+4. Create a `.env` file and add your Groq API key.
 
-```bash
-pip install -r requirements.txt
-```
+5. Start the application:
+   ```
+   streamlit run app.py
+   ```
 
-4. Create a `.env` file and add your Groq API key
+6. Open `http://localhost:8501` in your browser.
 
-```env
-GROQ_API_KEY=your_api_key
-```
+7. Upload your PDF files and start asking questions.
 
-5. Run the application
-
-```bash
-streamlit run app.py
-```
-
-6. Open the application in your browser
-
-```text
-http://localhost:8501
-```
-
-7. Upload one or more PDF documents and start asking questions.
-
----
 
 ## 📂 Project Structure
 
-```text
+```
 Knowledge-Based-RAG-Chatbot/
 │
 ├── assets/
@@ -100,7 +87,6 @@ Knowledge-Based-RAG-Chatbot/
 └── env_example.txt
 ```
 
----
 
 ## Key Highlights
 
@@ -112,7 +98,6 @@ Knowledge-Based-RAG-Chatbot/
 - Real-time Streaming Responses
 - Modular LangChain Expression Language (LCEL) Pipeline
 
----
 
 ## Future Enhancements
 
@@ -123,7 +108,6 @@ Knowledge-Based-RAG-Chatbot/
 - Cloud Deployment
 - Source Citation and Highlighting
 
----
 
 ## Author
 
@@ -131,7 +115,7 @@ Knowledge-Based-RAG-Chatbot/
 
 GitHub: https://github.com/SreyaBondili
 
----
+
 
 
 
