@@ -92,6 +92,7 @@ Knowledge-Based-RAG-Chatbot/
 - Hybrid Retrieval (FAISS + BM25)
 - Semantic Search with FAISS
 - Keyword Search using BM25
+- Conversational Memory
 - Query Cleaning
 - Regex-based Answer Cleaning
 - Real-time Streaming Responses
