@@ -24,11 +24,11 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 
 ### Chatbot Response
 
-![Chatbot](assets/screenshot1.png)
+![Chatbot](assets/home_page.png)
 
 ### Another Example
 
-![Chatbot](assets/screenshot2.png)
+![Chatbot](assets/chat_interface.png)
 
 
 ## Technologies Used
