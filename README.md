@@ -73,7 +73,7 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 
 ## 📂 Project Structure
 
-
+```
 Knowledge-Based-RAG-Chatbot/
 │
 ├── assets/
@@ -84,7 +84,7 @@ Knowledge-Based-RAG-Chatbot/
 ├── requirements.txt
 ├── README.md
 └── env_example.txt
-
+```
 
 
 ## Key Highlights
