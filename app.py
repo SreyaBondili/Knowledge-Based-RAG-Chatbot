@@ -26,11 +26,11 @@ if "current_files" not in st.session_state:
     st.session_state.current_files = None
 
 st.set_page_config(
-    page_title="Knowledge RAG Chatbot",
+    page_title="Knowledge-Based RAG Chatbot",
     page_icon="📚",
     layout="wide"
 )
-st.title("📚 Knowledge RAG Chatbot")
+st.title("📚 Knowledge-Based RAG Chatbot")
 
 # Read each stored message from chat history and display it in the chat window
 for msg in st.session_state.chat_history:
