@@ -12,7 +12,7 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 - Ask questions based only on uploaded documents
 - Hybrid Retrieval using FAISS and BM25
 - HuggingFace MiniLM Embeddings
-- Groq Llama 3.1 LLM
+- GPT OSS 20B LLM
 - Real-time response streaming
 - Query preprocessing
 - Regex-based answer cleaning
@@ -36,7 +36,7 @@ An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that 
 -  Python 
 -  Streamlit 
 -  LangChain (LCEL) 
--  Groq (Llama 3.1-8B Instant) 
+-  Groq (GPT OSS 20B)
 -  Hugging Face Embeddings (all-MiniLM-L6-v2) 
 -  FAISS 
 -  BM25 Retriever 
