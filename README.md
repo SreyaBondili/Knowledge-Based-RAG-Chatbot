@@ -3,7 +3,7 @@
 
 Project Description
 ---
-An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload one or more PDF documents and ask questions based only on the uploaded content. The chatbot retrieves relevant information using Hybrid Retrieval (FAISS + BM25) and generates accurate responses using Groq Llama 3.1.
+An AI-powered Knowledge-Based Retrieval-Augmented Generation (RAG) Chatbot that allows users to upload one or more PDF documents and ask questions based only on the uploaded content. The chatbot retrieves relevant information using Hybrid Retrieval (FAISS + BM25) and generates accurate responses using GPT OSS 20B LLM via Groq.
 
 
 ## Features
