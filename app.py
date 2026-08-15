@@ -58,7 +58,7 @@ def load_embeddings():
 @st.cache_resource
 def load_llm():
     return ChatGroq(
-        model="llama-3.1-8b-instant"
+        model= "openai/gpt-oss-20b"
     )
 
 # PDF Processing Pipeline
